@@ -1,5 +1,6 @@
-# **README**
+# **TWIST**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17979713.svg)](https://doi.org/10.5281/zenodo.17979713)
 
 This repository provides an R implementation of the Tree Water Imbalance and Storage Tracker (TWIST) module presented in the manuscript:
 
@@ -116,9 +117,13 @@ The module is agnostic to the source of the input data and can be coupled to eco
 ## **8. License & citation**
 Unless specified otherwise, the code is distributed under an MIT License to encourage reuse and adaptation.
 
-If using or modifying this code in your own work, please cite:
+If mentioning, using or modifying this code in your own work, please cite the accompanying paper:
 
-INCLUDE REFERENCE ONCE THE PAPER IS PUBLISHED
+TO DO: INCLUDE REFERENCE ONCE THE PAPER IS PUBLISHED
+
+For the code itself:
+
+Ziegler, Y., Ruehr, N. und Grote, R. (2025) „Tree Water Imbalance and Storage Tracker (TWIST) module v1.0“. Zenodo. [doi:10.5281/zenodo.17979713](https://doi.org/10.5281/zenodo.17979713).
 
 ---
 
