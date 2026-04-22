@@ -1,10 +1,7 @@
 # ======================================================================
-# TWIST_functions.R
+# 0_TWIST_functions.R
 #
-# Core implementation of the Tree Water Imbalance and Storage Tracker (TWIST) module presented in:
-#
-#   Ziegler et al. (2025, in prep.)
-#   "A simple framework for linking tree water deficit dynamics to drought risk across scales"
+# Core implementation of the Tree Water Imbalance and Storage Tracker (TWIST) module
 #
 # This script implements Eqs. (1)–(5) of the manuscript:
 #   Eq. (1) – Update of Tree Water Deficit (TWD)
@@ -13,7 +10,7 @@
 #   Eq. (4) – Relative Water Content (RWC)
 #   Eq. (5) – Tree water pool estimation based on wood biomass and density
 #
-# An exemplary application reproducing manuscript results is provided in example_run.R
+# An exemplary application reproducing manuscript results is provided in 1_run_TWIST_example.R
 # ======================================================================
 
 # ========== 1. Soil limitation function (Eq. 3) ==========
