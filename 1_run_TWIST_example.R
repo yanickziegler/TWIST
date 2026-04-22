@@ -1,8 +1,7 @@
 # ================================================================
-# example_run.R
+# 1_run_TWIST_example.R
 # 
 # Example workflow to run the Tree Water Imbalance and Storage Tracker (TWIST) module
-# presented in Ziegler et al. (2025, in prep.).
 # 
 # This script:
 # 1) Loads TWIST functions
@@ -21,23 +20,25 @@
 # ================================================================
 
 # 1) Load functions ----
-source("TWIST_functions.R")
-library(dplyr)
+source("0_TWIST_functions.R")
 library(ggplot2)
 
 # 2) Read input data ---- 
 # Contains: datetime, transpiration_l.m2, theta_rel, m_dry_wood_kg.m2
-df_input <- readRDS("example_input_data.rds")
+df_input <- readRDS("data/TWIST_input_data.rds")
 
 # 3) Define module parameters ----
 # The parameters are defined for the Štítná Fagus sylvatica setup presented
 # in the manuscript, but can be adjusted for other use cases.
 
-# Define TWD parameters 
+# Define TWD parameters.
+# Here, the parameter values are set to the best-fit solution obtained with
+# `2_calibrate_best_fit_parameters.R`. This allows reproduction of the TWD
+# and RWC time series presented in the accompanying publication.
 params_TWD <- list(
-  F_E     = 0.6,   # Fraction of transpiration directly supplied by uptake
-  F_TWD   = 0.3,   # Fraction of current TWD that can be refilled per timestep
-  F_theta = 0.7    # Soil moisture threshold scaling uptake downregulation
+  F_E     = 0.827,   # Fraction of transpiration directly supplied by uptake
+  F_TWD   = 0.190,   # Fraction of current TWD that can be refilled per timestep
+  F_theta = 0.838    # Soil moisture threshold scaling uptake downregulation
 )
 
 # Define water pool parameters
