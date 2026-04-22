@@ -1,6 +1,6 @@
 # TWIST
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17979713.svg)](https://doi.org/10.5281/zenodo.17979713)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19692465.svg)](https://doi.org/10.5281/zenodo.19692465)
 
 This repository provides an R implementation of the **Tree Water Imbalance and Storage Tracker (TWIST)** module presented in the manuscript:
 
