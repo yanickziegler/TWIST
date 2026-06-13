@@ -4,7 +4,7 @@
 
 This repository provides an R implementation of the **Tree Water Imbalance and Storage Tracker (TWIST)** module presented in the manuscript:
 
-**Ziegler et al. (2026, in review.). _A simple framework for linking tree water deficit dynamics to internal water status across scales_.**
+**Ziegler et al. (2026, in review.). _TWIST: A diagnostic framework for representing tree water deficit dynamics in process-based forest models_.**
 
 The repository contains the core TWIST functions, a reproducible example workflow, and two additional scripts for parameter calibration and parameter uncertainty analysis. Together, these files allow reproduction of the **TWD** and **RWC** time series shown in the accompanying publication, as well as derivation of the corresponding **best-fit parameter set** and the set of **acceptable parameter solutions**. At the same time, the code is intended as a compact template for applying TWIST to new datasets or coupling it to ecosystem models that provide the required inputs. 
 
